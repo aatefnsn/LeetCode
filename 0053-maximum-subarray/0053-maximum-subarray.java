@@ -1,5 +1,41 @@
 class Solution {
     public int maxSubArray(int[] nums) {
+        int max=0;
+        if (nums.length==0){
+            return 0;
+        }
+        if (nums.length==1){
+            return nums[0];
+        }
+
+        Boolean all_negative=true;
+        //int max_negative=0;
+        for (int i=0; i<nums.length;i++){
+            if(nums[i]>0){
+                all_negative=false;
+            }
+        }
+        if(all_negative){
+            //int max_negative=Integer.NEGATIVE_INFINITY;
+            return Arrays.stream(nums).max().getAsInt();
+        }else{
+            int[] max_arr=new int[nums.length];
+            for(int i=0; i<nums.length; i++){
+                if(i==0){
+                    max_arr[i]=Math.max(0,nums[i]);
+                    if(max_arr[i]>max){
+                        max=max_arr[i];
+                    }
+                }else{
+                    max_arr[i]=Math.max(0,nums[i]+ max_arr[i-1]);
+                    if(max_arr[i]>max){
+                        max=max_arr[i];
+                    }
+                }
+            }
+            return max;
+        }
+        //return max;
         // divide and conquer method
         /*
         Boolean all_negative = true;
@@ -44,6 +80,7 @@ class Solution {
         return Math.max(Math.max(left_max, right_max), cross_left_max + cross_right_max);
         */
 ////////////////////
+/*
         if (nums.length == 0) {
             return 0;
         }
@@ -91,10 +128,10 @@ class Solution {
         if (all_negative) {
             return Arrays.stream(nums).max().getAsInt();
         } else {
-            // return Arrays.stream(max).max().getAsInt();
             return max_sum;
         }
-
+        */
+//////////////////////////////
         
 
         /*
