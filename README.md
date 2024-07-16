@@ -23,6 +23,7 @@ LeetCode
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/aatefnsn/LeetCode/tree/master/0053-maximum-subarray) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -31,4 +32,20 @@ LeetCode
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/aatefnsn/LeetCode/tree/master/0053-maximum-subarray) |
+## Hash Table
+|  |
+| ------- |
+| [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
+## Binary Search
+|  |
+| ------- |
+| [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
+## Sorting
+|  |
+| ------- |
+| [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 <!---LeetCode Topics End-->
