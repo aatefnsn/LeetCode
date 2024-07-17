@@ -7,18 +7,22 @@ LeetCode
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 ## Binary Tree
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 ## Array
 |  |
 | ------- |
@@ -48,4 +52,8 @@ LeetCode
 |  |
 | ------- |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
+## Linked List
+|  |
+| ------- |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 <!---LeetCode Topics End-->
