@@ -1,5 +1,38 @@
 class Solution {
     public int maxSubArray(int[] nums) {
+        if (nums.length ==0){
+            return 0;
+        }
+        if (nums.length == 1){
+            return nums[0];
+        }
+        Boolean all_negative=true;
+        for(int i=0; i< nums.length; i++){
+            if(nums[i]>0){
+                all_negative=false;
+            }
+        }
+        if(all_negative){
+            return Arrays.stream(nums).max().getAsInt();
+        }else{
+            int max=-1;
+            int[] max_arr=new int[nums.length];
+            for(int i=0; i< nums.length; i++){
+                if(i==0){
+                    max_arr[i]=Math.max(0,nums[i]);
+                }else{
+                    max_arr[i]=Math.max(0,nums[i]+max_arr[i-1]);
+                    if(max_arr[i]>max){
+                        max=max_arr[i];
+                    }
+                }
+            }
+            return Arrays.stream(max_arr).max().getAsInt();
+        }
+        
+    }
+
+    public int maxSubArray0(int[] nums) {
         int max=0;
         if (nums.length==0){
             return 0;
