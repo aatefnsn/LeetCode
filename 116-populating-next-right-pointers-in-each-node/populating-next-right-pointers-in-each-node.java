@@ -23,15 +23,15 @@ class Node {
 
 class Solution {
     public Node connect(Node root) {
-        // solutin without queues
+        // solutin without queues, only works on perfect complete binary tree
         Node current = root;
         Node next = null;
-        if (root != null) {
+        if (root != null && current.left != null) {
             next = current.left;
         } else {
             next = null;
         }
-        while (current != null && next != null) {
+        while (current != null && next != null) { //current and current.left are not null
             current.left.next = current.right;
             if (current.next != null) {
                 current.right.next = current.next.left;
