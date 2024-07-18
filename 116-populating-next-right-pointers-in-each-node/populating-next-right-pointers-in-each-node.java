@@ -22,32 +22,7 @@ class Node {
 */
 
 class Solution {
-/*
-    public Node connect(Node root) {
-        Node current = root;
-        Node next_level = null;
-        if (current == null) {
-            return null;
-        } else if (current.left != null) {
-            next_level = current.left;
-        } else {
-            next_level = null;
-        }
-        while (current != null && next_level != null) {
-            current.left.next = current.right;
-
-            if (current.next != null) {
-                current.right.next = current.next.left;
-            }
-            current = current.next;
-            if (current == null) {
-                current = next_level;
-                next_level = current.left;
-            }
-        }
-        return root;
-    }
-*/
+    /*
     public Node connect(Node root) {
         // solutin without queues, only works on perfect complete binary tree
         Node current = root;
@@ -70,8 +45,8 @@ class Solution {
         }
         return root;
     }
-
-    public Node connect3(Node root) {
+*/
+    public Node connect(Node root) {
         // Solution generic works for both 116 and 117
         if (root == null)
             return root;
@@ -95,7 +70,7 @@ class Solution {
     }
 
     public Node connect4(Node root) {
-        // solution 2
+        // my own solution solution 2
         Queue<Node> q = new LinkedList<>();
         q.add(root); // adding nodes to the queue
         if (root == null) {
