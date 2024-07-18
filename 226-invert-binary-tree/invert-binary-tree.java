@@ -40,12 +40,12 @@ class Solution {
         TreeNode temp=root.left;
         root.left=root.right;
         root.right=temp;
-        if (root.left != null){
+        //if (root.left != null){
              invertTree(root.left);
-        }
-        if (root.right != null){
+        //}
+        //if (root.right != null){
              invertTree(root.right);
-        }
+        //}
         return root;
     }
 
