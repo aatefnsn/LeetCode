@@ -22,23 +22,49 @@ class Node {
 */
 
 class Solution {
+
     public Node connect(Node root) {
-        Node current=root;
-        Node next_level=null;
-        if(current != null){
-            next_level=current.left;
-        }else{
-            next_level=null;
-        }
-        while(current !=null && next_level != null){
-            current.left.next=current.right;
-            if (current.next != null){
-                current.right.next=current.next.left;
+        if (root == null) {
+            return null;
+        } else {
+            LinkedList<Node> q = new LinkedList<>();
+            q.add(root);
+            while (!q.isEmpty()) {
+                int size = q.size();
+                    for (int i = 0; i < size; i++) {
+                        Node current = q.pop();
+                        if (i < size - 1) {
+                            current.next = q.peek();
+                        }
+                        if (current.left != null) {
+                        q.add(current.left);
+                    }
+                    if (current.right != null) {
+                        q.add(current.right);
+                    }
+                    }
             }
-            current=current.next;
-            if(current == null){
-                current=next_level;
-                next_level=current.left;
+        }
+        return root;
+    }
+
+    public Node connect0(Node root) {
+        Node current = root;
+        Node next_level = null;
+        if (current != null) {
+            next_level = current.left;
+        } else {
+            next_level = null;
+        }
+        while (current != null && next_level != null) {
+            current.left.next = current.right;
+            if (current.next != null) {
+                current.right.next = current.next.left;
+            }
+            current = current.next;
+            if (current == null) {
+                current = next_level;
+                next_level = current.left;
             }
         }
         return root;
