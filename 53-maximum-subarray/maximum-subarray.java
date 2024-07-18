@@ -24,6 +24,25 @@ class Solution {
                     max_arr[i]=Math.max(0,nums[i]+max_arr[i-1]);
                 }
             }
+            int max=Arrays.stream(max_arr).max().getAsInt();
+            Stack<Integer> indexes = new Stack<>();
+        for (int i=max_arr.length-1; i>=0; i--){
+            if(max_arr[i]==max){
+                indexes.add(i);
+                for(int j=i-1; j>=0; j--){
+                    if(max_arr[j] != 0){
+                        indexes.add(j);
+                    }else{
+                        break;
+                    }
+                }
+            }
+        }
+
+        while(!indexes.isEmpty()) {
+            System.out.print(indexes.pop()+",");
+        }
+
             return Arrays.stream(max_arr).max().getAsInt();
         }
         
