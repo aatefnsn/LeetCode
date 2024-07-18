@@ -25,10 +25,7 @@ class Solution {
                 TreeNode curr=q.pop();
                 //System.out.println(curr.val);
 
-                if (curr.left !=null)
-                    q.add(curr.left);
-                if(curr.right != null)
-                    q.add(curr.right);
+               
 
                 if(curr.left != null && curr.right !=null){
                     TreeNode temp=curr.left;
@@ -41,6 +38,11 @@ class Solution {
                     curr.right=curr.left;
                     curr.left=null;
                 }
+
+                if (curr.left !=null)
+                    q.add(curr.left);
+                if(curr.right != null)
+                    q.add(curr.right);
                 
             }
             //
