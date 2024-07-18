@@ -23,7 +23,7 @@ class Solution {
             while(!q.isEmpty()){
                 //System.out.println(q.size());
                 TreeNode curr=q.pop();
-                System.out.println(curr.val);
+                //System.out.println(curr.val);
 
                 if (curr.left !=null)
                     q.add(curr.left);
