@@ -15,16 +15,16 @@ class Solution {
         if(all_negative){
             return Arrays.stream(nums).max().getAsInt();
         }else{
-            int max=-1;
+            //int max=0;
             int[] max_arr=new int[nums.length];
             for(int i=0; i< nums.length; i++){
                 if(i==0){
                     max_arr[i]=Math.max(0,nums[i]);
                 }else{
                     max_arr[i]=Math.max(0,nums[i]+max_arr[i-1]);
-                    if(max_arr[i]>max){
+                    /*if(max_arr[i]>max){
                         max=max_arr[i];
-                    }
+                    }*/
                 }
             }
             return Arrays.stream(max_arr).max().getAsInt();
