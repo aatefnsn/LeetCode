@@ -15,18 +15,14 @@
  */
 class Solution {
     public TreeNode invertTree(TreeNode root) {
+        /*
         if(root == null){
             return null;
         }else{
             LinkedList<TreeNode> q = new LinkedList<>();
             q.add(root);
             while(!q.isEmpty()){
-                //System.out.println(q.size());
                 TreeNode curr=q.pop();
-                //System.out.println(curr.val);
-
-               
-
                 if(curr.left != null && curr.right !=null){
                     TreeNode temp=curr.left;
                     curr.left=curr.right;
@@ -38,17 +34,26 @@ class Solution {
                     curr.right=curr.left;
                     curr.left=null;
                 }
-
                 if (curr.left !=null)
                     q.add(curr.left);
                 if(curr.right != null)
                     q.add(curr.right);
-                
             }
-            //
         }
         return root;
+        */
+        if (root == null){
+        return root;
+        }else{
+            //swap
+            TreeNode temp=root.left;
+            root.left=root.right;
+            root.right=temp;
+
+            invertTree(root.left);
+            invertTree(root.right);
     }
+    return root;
 }
         //return root;
        /*
@@ -66,6 +71,6 @@ class Solution {
              invertTree(root.right);
         // }
         
-        //return root;
+        return root;*/
         
-    }*/
+    }
