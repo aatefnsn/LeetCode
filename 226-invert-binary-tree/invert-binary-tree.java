@@ -34,16 +34,12 @@ class Solution {
                     TreeNode temp=curr.left;
                     curr.left=curr.right;
                     curr.right=temp;
-                    //q.add(q.peek().left);
-                    //q.add(q.pop().right);
                 }else if(curr.left == null && curr.right !=null){
                     curr.left=curr.right;
                     curr.right=null;
-                     //q.add(q.pop().right);
                 }else if(curr.left != null && curr.right ==null){
                     curr.right=curr.left;
                     curr.left=null;
-                     //q.add(q.pop().left);
                 }
                 
             }
