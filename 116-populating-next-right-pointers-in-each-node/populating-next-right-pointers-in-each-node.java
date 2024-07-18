@@ -22,28 +22,104 @@ class Node {
 */
 
 class Solution {
+/*
     public Node connect(Node root) {
-        Node current=root;
-        Node next_level=null;
-        if (current == null){
+        Node current = root;
+        Node next_level = null;
+        if (current == null) {
             return null;
-        }else if(current.left != null){
-            next_level=current.left;
-        }else{
-            next_level=null;
+        } else if (current.left != null) {
+            next_level = current.left;
+        } else {
+            next_level = null;
         }
-        while(current != null && next_level != null){
+        while (current != null && next_level != null) {
             current.left.next = current.right;
 
-            if (current.next != null){
-                current.right.next=current.next.left;
+            if (current.next != null) {
+                current.right.next = current.next.left;
             }
-            current=current.next;
-            if(current == null){
-                current=next_level;
-                next_level=current.left;
+            current = current.next;
+            if (current == null) {
+                current = next_level;
+                next_level = current.left;
             }
         }
-return root;
+        return root;
+    }
+*/
+    public Node connect(Node root) {
+        // solutin without queues, only works on perfect complete binary tree
+        Node current = root;
+        Node next = null;
+        if (current != null) { // can be if (root != null && current.left ! = null){
+            next = current.left;
+        } else {
+            next = null;
+        }
+        while (current != null && next != null) { // current and current.left are not null
+            current.left.next = current.right;
+            if (current.next != null) {
+                current.right.next = current.next.left;
+            }
+            current = current.next;
+            if (current == null) {
+                current = next;
+                next = current.left;
+            }
+        }
+        return root;
+    }
+
+    public Node connect3(Node root) {
+        // Solution generic works for both 116 and 117
+        if (root == null)
+            return root;
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            int size = q.size();
+            for (int i = 0; i < size; i++) {
+                Node cur = q.poll();
+                if (i < size - 1)
+                    cur.next = q.peek();
+                else
+                    cur.next = null;
+                if (cur.left != null)
+                    q.add(cur.left);
+                if (cur.right != null)
+                    q.add(cur.right);
+            }
+        }
+        return root;
+    }
+
+    public Node connect4(Node root) {
+        // solution 2
+        Queue<Node> q = new LinkedList<>();
+        q.add(root); // adding nodes to the queue
+        if (root == null) {
+            return root;
+        }
+        while (!q.isEmpty()) {
+            int size = q.size();
+            Node prev = null;
+            while (size > 0) {
+                Node current = q.remove();
+                if (prev != null) {
+                    prev.next = current;
+                }
+                size--;
+                prev = current;
+                if (current.left != null) {
+                    q.add(current.left);
+                }
+                if (current.right != null) {
+                    q.add(current.right);
+                }
+                // size--;
+            }
+        }
+        return root;
     }
 }
