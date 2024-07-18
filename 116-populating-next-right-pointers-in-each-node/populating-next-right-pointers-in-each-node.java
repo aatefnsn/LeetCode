@@ -26,7 +26,7 @@ class Solution {
         // solutin without queues, only works on perfect complete binary tree
         Node current = root;
         Node next = null;
-        if (root != null && current.left != null) {
+        if (root != null) { // can be if (root != null && current.left ! = null){
             next = current.left;
         } else {
             next = null;
