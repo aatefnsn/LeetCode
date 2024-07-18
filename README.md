@@ -8,21 +8,25 @@ LeetCode
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Array
 |  |
 | ------- |
