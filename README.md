@@ -52,6 +52,7 @@ LeetCode
 |  |
 | ------- |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [1894-merge-strings-alternately](https://github.com/aatefnsn/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
 |  |
 | ------- |
@@ -65,4 +66,8 @@ LeetCode
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aatefnsn/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+## String
+|  |
+| ------- |
+| [1894-merge-strings-alternately](https://github.com/aatefnsn/LeetCode/tree/master/1894-merge-strings-alternately) |
 <!---LeetCode Topics End-->
