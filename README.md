@@ -34,6 +34,7 @@ LeetCode
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/aatefnsn/LeetCode/tree/master/0011-container-with-most-water) |
 | [0053-maximum-subarray](https://github.com/aatefnsn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 ## Divide and Conquer
@@ -51,6 +52,7 @@ LeetCode
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/aatefnsn/LeetCode/tree/master/0011-container-with-most-water) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1894-merge-strings-alternately](https://github.com/aatefnsn/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
@@ -70,4 +72,8 @@ LeetCode
 |  |
 | ------- |
 | [1894-merge-strings-alternately](https://github.com/aatefnsn/LeetCode/tree/master/1894-merge-strings-alternately) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/aatefnsn/LeetCode/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
