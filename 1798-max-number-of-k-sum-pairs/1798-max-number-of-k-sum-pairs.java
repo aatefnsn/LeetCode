@@ -5,7 +5,7 @@ class Solution {
         int start=0;
         int end=nums.length -1;
         while(start < end){
-            System.out.println("Start is " + start+ " and end is " + end);
+            //System.out.println("Start is " + start+ " and end is " + end);
             if (nums[start]+ nums[end] == k){
                 start++;
                 end--;
