@@ -88,5 +88,4 @@ class Solution {
              * return matchingHashMaps(word1Map, word2Map);
              */
         }
-
 }
