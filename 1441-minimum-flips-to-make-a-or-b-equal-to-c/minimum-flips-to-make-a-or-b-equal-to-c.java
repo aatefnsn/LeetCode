@@ -41,6 +41,18 @@ class Solution {
         //System.out.println(Arrays.toString(c_arr));
 
         for (int j=0; j<max_length;j++){
+            //cases 
+            //0 and 0
+            // if you need 0 add 0
+            // if you need 1 add 1
+
+            // 1 and 0
+            // if you need 1 add 0
+            // if you need 0 add 1
+
+            // 1 and 1
+            // if you need 1 add 0
+            // if you need 0 add 2
             if(a_arr[j]==0 && b_arr[j]==0 && c_arr[j]==1){
                 count++;
             }
@@ -55,18 +67,6 @@ class Solution {
             }
             
         }
-        //cases 
-        //0 and 0
-        // if you need 0 add 0
-        // if you need 1 add 1
-
-        // 1 and 0
-        // if you need 1 add 0
-        // if you need 0 add 1
-
-        // 1 and 1
-        // if you need 1 add 0
-        // if you need 0 add 2
 
         return count;
         
