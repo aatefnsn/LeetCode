@@ -2,13 +2,13 @@ class Solution {
     public int minFlips(int a, int b, int c) {
         int count=0;
         String str_a=Integer.toBinaryString(a);
-        System.out.println("str_a is " + str_a);
+        //System.out.println("str_a is " + str_a);
         String str_b=Integer.toBinaryString(b);
-        System.out.println("str_b is " + str_b);
+        //System.out.println("str_b is " + str_b);
         String str_c=Integer.toBinaryString(c);
-        System.out.println("str_c is " + str_c);
+        //System.out.println("str_c is " + str_c);
         int max_length=Math.max(Math.max(str_a.length(),str_b.length()),str_c.length());
-        System.out.println("max length is " + max_length);
+        //System.out.println("max length is " + max_length);
 
         String[] string_a = str_a.split("");
         String[] string_b = str_b.split("");
@@ -36,9 +36,9 @@ class Solution {
             index--;
         }
 
-        System.out.println(Arrays.toString(a_arr));
-        System.out.println(Arrays.toString(b_arr));
-        System.out.println(Arrays.toString(c_arr));
+        //System.out.println(Arrays.toString(a_arr));
+        //System.out.println(Arrays.toString(b_arr));
+        //System.out.println(Arrays.toString(c_arr));
 
         for (int j=0; j<max_length;j++){
             if(a_arr[j]==0 && b_arr[j]==0 && c_arr[j]==1){
