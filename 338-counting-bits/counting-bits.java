@@ -19,7 +19,7 @@ class Solution {
             for(int i=2; i <= n; i++){
                 counts[1]=1;
                 if(((Math.log(i) / Math.log(2))) % 1 == 0 ){ //whole number not a decimal
-                    System.out.println(i + " is a power of 2, new range");
+                    //System.out.println(i + " is a power of 2, new range");
                     counts[i]=1;
                     t=i;
                 }else{
