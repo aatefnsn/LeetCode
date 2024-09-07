@@ -1,19 +1,6 @@
 class Solution {
-    int[] dp;
-    public int minCostClimbingStairsHelper(int[] cost, int n) {
-        if (n == -1 || n == -2){ // meaning the size of the array is 0
-            //dp[0]=0; //not necessary it is already 0
-            return 0;
-        }else if (n == 0 || n == 1){ // meaning the size of the array is 2 
-            //return Math.min(cost[0], cost[1]);
-            return cost[n];
-        }else if (dp[n] !=0){
-            return dp[n];
-        }
-        dp[n]=cost[n]+Math.min(minCostClimbingStairsHelper(cost,n-1),minCostClimbingStairsHelper(cost,n-2));
-        return dp[n];
-    }
 
+    //iterative
     public int minCostClimbingStairs(int[] cost) {
         int n=cost.length;
         int[] dp = new int [n];
