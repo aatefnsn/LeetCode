@@ -6,7 +6,6 @@ class Solution {
             int n=nums.length;
             int min=nums[0];
             int max=nums[0];
-    
                 
             // track best sequence length  
             // (not current sequence length) 
@@ -19,7 +18,8 @@ class Solution {
             // i.e. track arr[j] (e.g. in  
             // array {1, 5, 3} our best sequence  
             // would be {1, 3} with arr[j] = 3) 
-            int max_seq = Integer.MIN_VALUE;       
+            int max_seq = Integer.MIN_VALUE; 
+            System.out.println("max seq is "+ max_seq);      
                 
             // save arr[i] 
             int store_min = min_num;    
@@ -39,7 +39,7 @@ class Solution {
                 // this condition is only hit  
                 // when current sequence size is 2 
                 else if (nums[i] < max_seq) {     
-                    
+                    System.out.println("kook"+nums[i]);
                 // update best sequence max number  
                 // to a smaller value  
                 // (i.e. we've found a  
@@ -61,15 +61,13 @@ class Solution {
                 // Print the output 
                 if (seq == 3)  
                 {             
-                    System.out.println("Triplet: " + store_min + 
-                                    ", " + max_seq + ", " + nums[i]); 
+                    System.out.println("Triplet: " + store_min + ", " + max_seq + ", " + nums[i]); 
                     return true; 
                 } 
                 max_seq = nums[i]; 
                 } 
             } 
             return false;
-
 
             /*
             int n=nums.length;
