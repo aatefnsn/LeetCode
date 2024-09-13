@@ -36,6 +36,7 @@ LeetCode
 | ------- |
 | [0011-container-with-most-water](https://github.com/aatefnsn/LeetCode/tree/master/0011-container-with-most-water) |
 | [0053-maximum-subarray](https://github.com/aatefnsn/LeetCode/tree/master/0053-maximum-subarray) |
+| [0334-increasing-triplet-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/0334-increasing-triplet-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/aatefnsn/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Divide and Conquer
@@ -83,6 +84,7 @@ LeetCode
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/aatefnsn/LeetCode/tree/master/0011-container-with-most-water) |
+| [0334-increasing-triplet-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/0334-increasing-triplet-subsequence) |
 ## Counting
 |  |
 | ------- |
