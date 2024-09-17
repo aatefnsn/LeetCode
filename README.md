@@ -47,6 +47,7 @@ LeetCode
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/aatefnsn/LeetCode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/aatefnsn/LeetCode/tree/master/0062-unique-paths) |
 ## Hash Table
 |  |
 | ------- |
@@ -89,4 +90,12 @@ LeetCode
 |  |
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/aatefnsn/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
+## Math
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/aatefnsn/LeetCode/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/aatefnsn/LeetCode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
