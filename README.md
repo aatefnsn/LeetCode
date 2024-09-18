@@ -48,6 +48,7 @@ LeetCode
 | ------- |
 | [0053-maximum-subarray](https://github.com/aatefnsn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/aatefnsn/LeetCode/tree/master/0062-unique-paths) |
+| [1250-longest-common-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Hash Table
 |  |
 | ------- |
@@ -79,6 +80,7 @@ LeetCode
 ## String
 |  |
 | ------- |
+| [1250-longest-common-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1777-determine-if-two-strings-are-close](https://github.com/aatefnsn/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/aatefnsn/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Greedy
