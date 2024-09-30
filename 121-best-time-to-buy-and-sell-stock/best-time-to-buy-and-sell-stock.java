@@ -7,13 +7,13 @@ class Solution {
         int max_profit=Integer.MIN_VALUE;
         for (int i=0; i< prices.length; i++){
             if (prices[i] < min && i < prices.length-1){
-                System.out.println("found a new minimum " + prices[i]);
+                //System.out.println("found a new minimum " + prices[i]);
                 min=prices[i];
                 min_index=i;
                 max=Integer.MIN_VALUE;
             }
             if (prices[i] > max && prices[i] > min && i > min_index){
-                System.out.println("found a new maximum " + prices[i]);
+                //System.out.println("found a new maximum " + prices[i]);
                 max=prices[i];
                 max_index=i;
                 int profit=max-min;
