@@ -1,5 +1,7 @@
 class Solution {
     public int maxProfit(int[] prices) {
+
+        // working solution but long and complex .. passes all test cases and beats 90%
         int min=Integer.MAX_VALUE;
         int min_index=0;
         int max_index=0;
