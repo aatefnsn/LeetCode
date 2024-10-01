@@ -1,7 +1,38 @@
 class Solution {
     public int maxProfit(int[] prices) {
+        //int profit=0;
+        int min=Integer.MAX_VALUE;
+        int profit=Integer.MIN_VALUE;
+        for(int i=0;i<prices.length;i++){
+            min=Math.min(prices[i], min);
+            profit=Math.max(profit, prices[i]-min);
+        }
+        return profit;
 
-        // working solution but long and complex .. passes all test cases and beats 90%
+        // passed majority of test cases but it is o(n^2) so time limit exceeded for a few test cases
+        /*
+        int max_profit=0;
+        int min=Integer.MAX_VALUE;
+        int max=Integer.MIN_VALUE;
+        for(int i=0; i < prices.length-1; i++){
+            if(prices[i] < min){
+                min=prices[i];
+                max=Integer.MIN_VALUE;
+            }
+            for(int j=i+1; j<prices.length; j++){
+                if(prices[j]> max && prices[j]> min){
+                    max=prices[j];
+                    int profit=max-min;
+                    if (profit> max_profit){
+                        max_profit=profit;
+                    }
+                }
+            }
+        }
+        return max_profit;*/
+
+        // working solution o(n) but long and complex .. passes all test cases and beats 99%
+        /*
         int min=Integer.MAX_VALUE;
         int min_index=0;
         int max_index=0;
@@ -28,6 +59,6 @@ class Solution {
             return 0;
         }else{
             return max_profit;
-        }
+        }*/
     }
 }
