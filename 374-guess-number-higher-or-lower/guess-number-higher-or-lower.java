@@ -26,14 +26,14 @@ public class Solution extends GuessGame {
                 found=true;
                 return rand_int1;
             }else if (res == 1){
-                System.out.println("you guessed a lower number, incrementing " + rand_int1);
+                //System.out.println("you guessed a lower number, incrementing " + rand_int1);
                 //rand_int1++;
                 // rand is between start and n
                 //Returns a random number between 0 (inclusive) and n (exclusive).
                 start=rand_int1 + 1;
                 rand_int1=rand.nextInt(end-start+1)+start;
             }else if (res == -1){
-                System.out.println("you guessed a Higher number, decrementing " + rand_int1);
+                //System.out.println("you guessed a Higher number, decrementing " + rand_int1);
                 //rand_int1--;
                 //rand is between start and end (rand_int1-1)
                 end=rand_int1 - 1;
