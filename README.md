@@ -39,6 +39,7 @@ LeetCode
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aatefnsn/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aatefnsn/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0334-increasing-triplet-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/0334-increasing-triplet-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/aatefnsn/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/aatefnsn/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/aatefnsn/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -53,6 +54,7 @@ LeetCode
 | [0062-unique-paths](https://github.com/aatefnsn/LeetCode/tree/master/0062-unique-paths) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aatefnsn/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aatefnsn/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/aatefnsn/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/aatefnsn/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1250-longest-common-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Hash Table
