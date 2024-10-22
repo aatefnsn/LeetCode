@@ -18,7 +18,8 @@ class Solution {
             }
         }
         //Passes 37 out of 38 tests cases because Big O of N^2
-        /*for (int i=0; i<k; i++){
+        /*k %= nums.length;
+        for (int i=0; i<k; i++){
             int head=nums[nums.length-1];    
             for(int j=nums.length-2;j>=0;j--){
                 //int temp=nums[j-1];
