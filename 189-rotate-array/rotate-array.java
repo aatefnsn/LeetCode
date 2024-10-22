@@ -2,10 +2,6 @@ class Solution {
     public void rotate(int[] nums, int k) {
         k %= nums.length;
         int[] nums_res=new int[nums.length];
-        /*for (int i=nums.length-1; i>nums.length-1-k; i--){
-            int head=nums[i];
-            //System.out.println(head);
-        }*/
         if (nums.length >k){
             int index=0;
             for (int i=nums.length-k;i<nums.length; i++){
