@@ -3,6 +3,35 @@ import java.util.stream.*;
 class Solution {
      Boolean mem[][];
     public boolean canPartition(int[] nums) {
+
+         int sum=0;
+        for (int i=0;i<nums.length;i++){
+            sum=sum+nums[i];
+        }
+        //System.out.println("sum is " + sum);
+        if(sum % 2 !=0){
+            //System.out.println("odd sum");
+            return false;
+        }else{
+            int target=sum/2;
+            //System.out.println("target is " + target);
+            Set<Integer> sums = new HashSet<>();
+            sums.add(0);
+            for(int i=0; i< nums.length; i++){
+                Object[] arr = sums.toArray();
+                for(int j=0;j<arr.length;j++){
+                    //System.out.println("adding " + ((int)arr[j]+nums[i]));
+                    sums.add((int)arr[j]+nums[i]);
+                    if((int)arr[j]+nums[i]==target){
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+
+        /// works fine but complex DP
+/*
           int sum = 0;
         int n = nums.length;
         
@@ -14,7 +43,8 @@ class Solution {
         
         mem = new Boolean[n+1][sum+1];
         
-        return subsetSum(nums,0,sum);
+        return subsetSum(nums,0,sum);*/
+        /////////////////////////////////////////
         /*
         int sum=0;
         for (int j=0; j<nums.length; j++){
