@@ -12,7 +12,6 @@ class Solution {
                 nums_res[index]=nums[j];
                 index++;
             }
-            //System.out.println(Arrays.toString(nums_res));
             
             for(int l=0; l<nums.length; l++){
                 nums[l]=nums_res[l];
