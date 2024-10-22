@@ -5,8 +5,6 @@ class Solution {
         if (nums.length >k){
             int index=0;
             for (int i=nums.length-k;i<nums.length; i++){
-                //int head=nums[i];
-                //System.out.println(head);
                 nums_res[index]=nums[i];
                 index++;
             }
