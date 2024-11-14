@@ -30,15 +30,12 @@ class Solution {
             prev=cur;
             cur=tempNext;
         }
-        System.out.println(prev.val); //4
-        System.out.println(leftPrev.val); //1
-        System.out.println(leftPrev.next.val); //2
-        
+        //System.out.println(prev.val); //4
+        //System.out.println(leftPrev.val); //1
+        //System.out.println(leftPrev.next.val); //2
         
         leftPrev.next.next=cur;
         leftPrev.next=prev;
-
-
 
         return dummy.next;
     }
