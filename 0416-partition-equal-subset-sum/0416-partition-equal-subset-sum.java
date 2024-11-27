@@ -3,7 +3,61 @@ import java.util.stream.*;
 class Solution {
      Boolean mem[][];
     public boolean canPartition(int[] nums) {
+        if (nums.length ==0){
+            return false;
+        }else{
+            int sum=0;
+            for(int i=0; i< nums.length; i++){
+                sum=sum+nums[i];
+            }
+            if (sum %2 != 0){
+                return false;
+            }else{
+                int target = sum/2;
+                //System.out.println("target is " + target);
+                //Stack<Integer> s = new Stack<>();
+                //Queue<Integer> q = new LinkedList<>();
+                Set<Integer> q = new HashSet<>();
+                q.add(0);
+                for(int i=0; i< nums.length; i++){
+                int size=q.size();
+                int[] arr = new int[size];
+                int cc=0;
+                    for (int ii : q) {
+                        //System.out.println("set has " + ii);
+                        arr[cc]=ii;
+                        cc++;
+                    }
+                    for(int k=0; k< arr.length; k++){
+                        arr[k]=arr[k]+nums[i];
+                        int value=arr[k];
+                        q.add(value);
+                        if(value == target){
+                            return true;
+                        }
+                    }
 
+                //System.out.println("Queue size is " + size);
+                    /*for(int j=0; j<size; j++){
+                        //int head=q.poll();
+                        int head=q.remove();
+                        //System.out.println("head is " + head);
+                        q.add(head);
+                        q.add(head+nums[i]);
+                        int ss=head+nums[i];
+                        //System.out.println("pushing "+ ss);
+                        //q.remove(q.poll());
+                        if(head+nums[i] == target){
+                            return true;
+                        }
+                    }*/
+                }
+
+            }
+        }
+        return false;
+/////// works fine ///////////////////
+/*
          int sum=0;
         for (int i=0;i<nums.length;i++){
             sum=sum+nums[i];
@@ -28,8 +82,8 @@ class Solution {
                 }
             }
         }
-        return false;
-
+        return false;*/
+//////////////////////////////////////////////////////////////////////////////////
         /// works fine but complex DP
 /*
           int sum = 0;
