@@ -94,6 +94,7 @@ LeetCode
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/aatefnsn/LeetCode/tree/master/0125-valid-palindrome) |
+| [0851-goat-latin](https://github.com/aatefnsn/LeetCode/tree/master/0851-goat-latin) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/aatefnsn/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1250-longest-common-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1777-determine-if-two-strings-are-close](https://github.com/aatefnsn/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
