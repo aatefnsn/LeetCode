@@ -11,33 +11,50 @@
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
         ListNode dummy = new ListNode(0,head);
-        //ListNode prev=dummy;
-        
-        ListNode leftPrev=dummy;
+        ListNode leftprev = dummy;
+        ListNode cur=head;
+        for (int i=0;i<left-1;i++){
+            leftprev=cur;
+            cur=cur.next;
+        }
+        System.out.println(cur.val);
+        System.out.println(leftprev.val);
+        ListNode prev=leftprev;
+        for(int j=0;j<right-left+1;j++){
+            ListNode temp=cur.next;
+            //cur.next.next=cur;
+            cur.next=prev;
+            prev=cur;
+            cur=temp;
+        }
+        leftprev.next.next=cur;
+        leftprev.next=prev;
+        return dummy.next;
+        /*
+        ListNode dummy=new ListNode (0,head);
+        ListNode leftPrev= dummy;
+        //leftPrev=dummy;
         ListNode cur=leftPrev.next;
-        // for(int i=0; i<left-1; i++){
-        //     leftPrev=leftPrev.next;
-        // }
-        //  System.out.println(leftPrev.val);
-        for(int i=0; i<left-1; i++){
+
+        for (int i=0; i<left-1; i++){
             leftPrev=leftPrev.next;
             cur=leftPrev.next;
         }
-        System.out.println(leftPrev.val);
-        System.out.println(cur.val);
-        
-        ListNode prev=leftPrev;
+
         ListNode temp=new ListNode(0);
-        for(int i=0; i<right - left+1; i++){
+        ListNode prev=leftPrev;
+        for (int i=0; i<right-left+1; i++){
             temp=cur.next;
             cur.next=prev;
             prev=cur;
             cur=temp;
         }
-       leftPrev.next.next=cur;
-        leftPrev.next=prev;
 
+        leftPrev.next.next=cur;
+        leftPrev.next=prev;
         return dummy.next;
+        */
+        ////////////////////////////////////////////
         /*
         ListNode dummy= new ListNode(0,head);
         ListNode leftPrev= dummy;
