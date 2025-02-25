@@ -1,5 +1,5 @@
 //import java.util.Collections;
-
+import java.util.Collections;
 class Solution {
     public String[] findRelativeRanks(int[] score) {
         String[] answer = new String[score.length];
@@ -8,6 +8,9 @@ class Solution {
         for(int m=0;m<score.length;m++){
             sorted[m]=score[m];
         }
+        //max heap
+        PriorityQueue<Integer> p = new PriorityQueue<>(Collections.reverseOrder());
+
         Arrays.sort(sorted);
         int[] sorted_reverse=new int[score.length];
         int index=sorted.length-1;
