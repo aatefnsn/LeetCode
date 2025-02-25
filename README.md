@@ -43,6 +43,7 @@ LeetCode
 | [0334-increasing-triplet-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/0334-increasing-triplet-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/aatefnsn/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/aatefnsn/LeetCode/tree/master/0419-battleships-in-a-board) |
+| [0506-relative-ranks](https://github.com/aatefnsn/LeetCode/tree/master/0506-relative-ranks) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/aatefnsn/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/aatefnsn/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -85,6 +86,7 @@ LeetCode
 ## Sorting
 |  |
 | ------- |
+| [0506-relative-ranks](https://github.com/aatefnsn/LeetCode/tree/master/0506-relative-ranks) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/aatefnsn/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/aatefnsn/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -132,4 +134,8 @@ LeetCode
 |  |
 | ------- |
 | [0419-battleships-in-a-board](https://github.com/aatefnsn/LeetCode/tree/master/0419-battleships-in-a-board) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0506-relative-ranks](https://github.com/aatefnsn/LeetCode/tree/master/0506-relative-ranks) |
 <!---LeetCode Topics End-->
