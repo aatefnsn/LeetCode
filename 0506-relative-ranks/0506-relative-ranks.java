@@ -1,5 +1,5 @@
 //import java.util.Collections;
-
+import java.util.Collections;
 class Solution {
     public String[] findRelativeRanks(int[] score) {
         String[] answer = new String[score.length];
@@ -8,7 +8,20 @@ class Solution {
         for(int m=0;m<score.length;m++){
             sorted[m]=score[m];
         }
-        Arrays.sort(sorted);
+        //max heap
+        PriorityQueue<Integer> p = new PriorityQueue<>(Collections.reverseOrder());
+        for(int m=0;m<score.length;m++){
+            p.add(score[m]);
+        }
+        int [] pq_sorted=new int[score.length];
+        for(int m=0;m<score.length;m++){
+            pq_sorted[m]=p.remove();
+        }
+        System.out.println("Sorted Using PQ");
+        System.out.println(Arrays.toString(pq_sorted));
+        sorted=pq_sorted;
+
+        /*Arrays.sort(sorted);
         int[] sorted_reverse=new int[score.length];
         int index=sorted.length-1;
         for(int n=0;n<sorted.length;n++){
@@ -16,6 +29,7 @@ class Solution {
             index--;
         }
         sorted=sorted_reverse;
+        */
 
         //System.out.println("Score");
         //System.out.println(Arrays.toString(score));
@@ -53,18 +67,6 @@ class Solution {
             }
         }
         return 0;
-    }
-
-    public static int[] convertIntegerArrayToIntArray(Integer[] integerArray) {
-        if (integerArray == null) {
-            return new int[0]; // Or throw an exception, depending on requirements
-        }
-
-        int[] intArray = new int[integerArray.length];
-        for (int i = 0; i < integerArray.length; i++) {
-            intArray[i] = integerArray[i]; // Autoboxing handles nulls automatically
-        }
-        return intArray;
     }
 
 }
