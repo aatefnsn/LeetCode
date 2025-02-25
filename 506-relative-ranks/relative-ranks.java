@@ -55,16 +55,4 @@ class Solution {
         return 0;
     }
 
-    public static int[] convertIntegerArrayToIntArray(Integer[] integerArray) {
-        if (integerArray == null) {
-            return new int[0]; // Or throw an exception, depending on requirements
-        }
-
-        int[] intArray = new int[integerArray.length];
-        for (int i = 0; i < integerArray.length; i++) {
-            intArray[i] = integerArray[i]; // Autoboxing handles nulls automatically
-        }
-        return intArray;
-    }
-
 }
