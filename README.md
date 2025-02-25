@@ -7,6 +7,7 @@ LeetCode
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aatefnsn/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
@@ -14,6 +15,7 @@ LeetCode
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aatefnsn/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
@@ -22,6 +24,7 @@ LeetCode
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aatefnsn/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
@@ -29,6 +32,7 @@ LeetCode
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/aatefnsn/LeetCode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aatefnsn/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
