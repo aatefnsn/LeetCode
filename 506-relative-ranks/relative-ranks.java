@@ -17,22 +17,22 @@ class Solution {
         }
         sorted=sorted_reverse;
 
-        System.out.println("Score");
-        System.out.println(Arrays.toString(score));
+        //System.out.println("Score");
+        //System.out.println(Arrays.toString(score));
 
-        System.out.println("Sorted");
-        System.out.println(Arrays.toString(sorted_reverse));
+        //System.out.println("Sorted");
+        //System.out.println(Arrays.toString(sorted_reverse));
 
         for (int j = 0; j < score.length; j++) {
             rank[j] = findPos(sorted, score[j]);
         }
-        System.out.println("Rank");
-        System.out.println(Arrays.toString(rank));
+        //System.out.println("Rank");
+        //System.out.println(Arrays.toString(rank));
         for (int y=0; y<score.length; y++){
             answer[y]=Integer.toString(rank[y]+1);
         }
-        System.out.println("Rank now");
-        System.out.println(Arrays.toString(answer));
+        //System.out.println("Rank now");
+        //System.out.println(Arrays.toString(answer));
         for (int y=0; y<score.length; y++){
             if (answer[y].equals("1")){
                 answer[y]="Gold Medal";
