@@ -1,5 +1,29 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        
+        preMap=defaultdict(list)
+        tracker = numCourses * [0]
+
+        for course, prereq in prerequisites:
+            preMap[prereq].append(course)
+            tracker[course]+=1
+        queue=deque()
+        for i in range(numCourses):
+            if tracker[i] == 0:
+                queue.append(i)
+        completed =0
+        while queue:
+            prereq = queue.popleft()
+            completed+=1
+
+            for next_course in preMap[prereq]:
+                tracker[next_course]-=1
+                if tracker[next_course] == 0:
+                    queue.append(next_course)
+
+        return completed == numCourses
+        
+        """
         # Create empty graph where each key points to list of dependent courses
         graph = defaultdict(list)
         # Track how many prerequisites each course has (0 to numCourses-1)
@@ -41,4 +65,5 @@ class Solution:
         # If we completed all courses, there's no cycle (valid schedule exists)
         # If completed < numCourses, there's a cycle (some courses are stuck)
         return completed == numCourses
+        """
         
