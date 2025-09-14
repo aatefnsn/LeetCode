@@ -20,6 +20,7 @@ LeetCode
 | [0111-minimum-depth-of-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aatefnsn/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0207-course-schedule](https://github.com/aatefnsn/LeetCode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0419-battleships-in-a-board](https://github.com/aatefnsn/LeetCode/tree/master/0419-battleships-in-a-board) |
 ## Breadth-First Search
@@ -30,6 +31,7 @@ LeetCode
 | [0111-minimum-depth-of-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aatefnsn/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aatefnsn/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0207-course-schedule](https://github.com/aatefnsn/LeetCode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/aatefnsn/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
@@ -146,4 +148,12 @@ LeetCode
 |  |
 | ------- |
 | [0506-relative-ranks](https://github.com/aatefnsn/LeetCode/tree/master/0506-relative-ranks) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/aatefnsn/LeetCode/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/aatefnsn/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
