@@ -48,6 +48,7 @@ LeetCode
 | [0011-container-with-most-water](https://github.com/aatefnsn/LeetCode/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/aatefnsn/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/aatefnsn/LeetCode/tree/master/0053-maximum-subarray) |
+| [0056-merge-intervals](https://github.com/aatefnsn/LeetCode/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aatefnsn/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aatefnsn/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0334-increasing-triplet-subsequence](https://github.com/aatefnsn/LeetCode/tree/master/0334-increasing-triplet-subsequence) |
@@ -96,6 +97,7 @@ LeetCode
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/aatefnsn/LeetCode/tree/master/0056-merge-intervals) |
 | [0506-relative-ranks](https://github.com/aatefnsn/LeetCode/tree/master/0506-relative-ranks) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/aatefnsn/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
