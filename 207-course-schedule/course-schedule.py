@@ -1,6 +1,31 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        PreMap = defaultdict(list)
+        indegree=[0] * numCourses
+
+        for course,prereq in prerequisites:
+            PreMap[prereq].append(course)
+            indegree[course]+=1
         
+        queue=deque()
+        for i in range(numCourses):
+            if indegree[i] == 0:
+                queue.append(i)
+        completed = 0
+        
+        while queue:
+            prereq=queue.popleft()
+            completed+=1
+            for nextCourse in PreMap[prereq]:
+                indegree[nextCourse]-=1
+                if indegree[nextCourse] == 0:
+                    queue.append(nextCourse)
+        return numCourses == completed
+
+
+
+
+        '''
         PreMap=defaultdict(list)
         courseDepCount= [0] * numCourses
 
@@ -25,7 +50,7 @@ class Solution:
                     queue.append(nextCourse)
 
         return completed == numCourses
-
+        '''
         
         """
         #def canFinish(numCourses, prerequisites):
