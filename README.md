@@ -56,6 +56,7 @@ LeetCode
 | [0419-battleships-in-a-board](https://github.com/aatefnsn/LeetCode/tree/master/0419-battleships-in-a-board) |
 | [0506-relative-ranks](https://github.com/aatefnsn/LeetCode/tree/master/0506-relative-ranks) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0643-maximum-average-subarray-i](https://github.com/aatefnsn/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/aatefnsn/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/aatefnsn/LeetCode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Divide and Conquer
@@ -158,4 +159,8 @@ LeetCode
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/aatefnsn/LeetCode/tree/master/0207-course-schedule) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/aatefnsn/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
