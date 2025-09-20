@@ -25,7 +25,7 @@ class Solution:
             for i in range(k): # 0 --> k-1
                 if arr[i] == "a" or arr[i] == "e" or arr[i] == "i" or arr[i] == "o" or arr[i] == "u":
                     curVowels+= 1
-            print("Vowels count is the first k elements is ", curVowels)
+            #print("Vowels count is the first k elements is ", curVowels)
             #for j in range (1,len(arr)-k+1): # maybe needs +1
             #    if(arr[j])
             maxVowels=curVowels
