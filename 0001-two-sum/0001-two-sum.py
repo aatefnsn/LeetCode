@@ -6,7 +6,7 @@ class Solution:
            hm[i]=nums[i]
         for i in range (len(nums)):
             #if target != 0:
-            if nums[i] >= target and target != 0 and target > 0: 
+            if nums[i] >= target and target > 0: 
                 continue
             else:
                 if target-nums[i] in hm.values():
