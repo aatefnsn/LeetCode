@@ -10,7 +10,7 @@ class Solution:
                 continue
             else:
                 if target-nums[i] in hm.values():
-                    print("found remaining value ",  target-nums[i], "in the hash map")
+                    #print("found remaining value ",  target-nums[i], "in the hash map")
                     for key,value in hm.items():
                         if value == target-nums[i] and key != i:
                             return [i,key]
