@@ -45,6 +45,7 @@ LeetCode
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/aatefnsn/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/aatefnsn/LeetCode/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/aatefnsn/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/aatefnsn/LeetCode/tree/master/0053-maximum-subarray) |
@@ -76,6 +77,7 @@ LeetCode
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/aatefnsn/LeetCode/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/aatefnsn/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aatefnsn/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/aatefnsn/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
