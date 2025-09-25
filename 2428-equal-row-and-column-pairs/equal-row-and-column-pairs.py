@@ -17,8 +17,8 @@ class Solution:
                 L.append(s)
             '''
             #print(s)
-        print(d)
-        print("done with rows")
+        #print(d)
+        #print("done with rows")
         for i in range (len(grid[0])): #columns
             s=""
             for j in range (len(grid)): #rows
