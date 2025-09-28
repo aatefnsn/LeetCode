@@ -29,12 +29,12 @@ class Solution:
             #print("QD is ", dq)
             #print("RQ is ", rq)  
             index+=index
-
+        '''
         if dq:
             return "Dire"
         else:
             return "Radiant"
-        
-        #return ""
+        '''
+        return "Dire" if dq else "Radiant"
 
         
