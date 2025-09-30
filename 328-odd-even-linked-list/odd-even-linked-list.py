@@ -26,7 +26,7 @@ class Solution:
                 #new_head.next.next= None
                 new_head=new_head.next
                 
-            print("done with odd")
+            #print("done with odd")
             curEven=head.next
             if curEven:
                 new_head.next=ListNode(curEven.val)
