@@ -15,8 +15,8 @@ class Solution:
                 l.append(pointer.val)
                 count+=1
                 pointer=pointer.next
-            print(l)
-            print("count is ", count)
+            #print(l)
+            #print("count is ", count)
             max=0
             for i in range (int(count/2)): # 0 - 1 so 2 iterations if count/2 is 4/2=2
                 sum=l[i]+l[len(l)-i-1] # l[0] + l[4-0-1]
