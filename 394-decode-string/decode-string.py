@@ -28,11 +28,11 @@ class Solution:
                     #if q[-1].isdigit():
                     #while int(q[-1]) >= 0 and int(q[-1]) <=9:
                     while len(q) != 0 and q[-1].isdigit():
-                        print("integer is ", q[-1])
+                        #print("integer is ", q[-1])
                         count=q[-1]+count
                         q.pop()
                     
-                    print("count is ", count)
+                    #print("count is ", count)
                     count=int(count)
                     tempq=deque()
                     while q2[0] != ']':
