@@ -22,8 +22,8 @@ class Solution:
                 cur,curDepth=stack.popleft()
                 maxDepth=max(curDepth, maxDepth)
                 #count+=1
-                print(cur.val)
-                visited.append(cur)
+                #print(cur.val)
+                #visited.append(cur)
                 #visited_level[cur]=count
                 
                 if cur.left:
