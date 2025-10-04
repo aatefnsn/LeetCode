@@ -16,8 +16,8 @@ class Solution:
             stack.appendleft((root, root.val)) # push the node and the max value along the path
             while stack:
                 cur, curMax=stack.popleft()
-                print("cur value is ",cur.val)
-                print("cur max along the path is ",curMax)
+                #print("cur value is ",cur.val)
+                #print("cur max along the path is ",curMax)
                 visited.append(cur)
                 if cur.left:
                     stack.appendleft((cur.left, max(cur.left.val,curMax)))
