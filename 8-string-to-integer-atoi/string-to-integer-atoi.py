@@ -68,9 +68,9 @@ class Solution:
             result=result+str(int(s[i]))
             res = res * 10 + digit
             
-            if sign * int(result) <= INT_MIN:
+            if sign * res <= INT_MIN:
                 return INT_MIN
-            if sign * int(result) >= INT_MAX:
+            if sign * res >= INT_MAX:
                 return INT_MAX
             
             i += 1
