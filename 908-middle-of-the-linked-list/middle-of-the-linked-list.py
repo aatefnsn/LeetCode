@@ -24,7 +24,14 @@ class Solution:
         #print("left pointer is at ", lp.val)
         #print("right pointer is at ", rp.val)
         print("count is ", count)
-        
+        hops=math.floor(count/2)
+        print("hops is ", hops)
+        while hops > 0 :
+            lp=lp.next
+            hops=hops-1
+        return lp
+
+'''
         i=0
         hops=0
         if count%2 != 0: #odd
@@ -41,8 +48,8 @@ class Solution:
             print("even count")
             hops=math.floor(count/2)
             while hops > 0:
-                #i+=1
                 hops=hops-1
                 lp=lp.next
             return lp
         #return l
+        '''
