@@ -21,35 +21,10 @@ class Solution:
                 rp=rp.next
                 count+=1
         count+=1
-        #print("left pointer is at ", lp.val)
-        #print("right pointer is at ", rp.val)
-        print("count is ", count)
+        #print("count is ", count)
         hops=math.floor(count/2)
-        print("hops is ", hops)
+        #print("hops is ", hops)
         while hops > 0 :
             lp=lp.next
             hops=hops-1
         return lp
-
-'''
-        i=0
-        hops=0
-        if count%2 != 0: #odd
-            print("odd count")
-            hops=math.floor(count/2)
-            print("hops is ", hops)
-            while hops > 0 :
-                lp=lp.next
-                hops=hops-1
-            return lp
-        #while rp != lp and lp.next !=rp:
-        #    lp=
-        else:
-            print("even count")
-            hops=math.floor(count/2)
-            while hops > 0:
-                hops=hops-1
-                lp=lp.next
-            return lp
-        #return l
-        '''
